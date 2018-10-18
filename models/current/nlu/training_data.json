@@ -1,0 +1,905 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "pick_up",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "sword",
+            "entity": "object"
+          }
+        ],
+        "text": "grab the sword"
+      },
+      {
+        "intent": "pick_up",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "torch",
+            "entity": "object"
+          }
+        ],
+        "text": "pick up the torch"
+      },
+      {
+        "intent": "pick_up",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "stone",
+            "entity": "object"
+          }
+        ],
+        "text": "I pick up the stone"
+      },
+      {
+        "intent": "pick_up",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "gold",
+            "entity": "object"
+          },
+          {
+            "start": 28,
+            "end": 32,
+            "value": "body",
+            "entity": "location"
+          }
+        ],
+        "text": "I pick up the gold from the body"
+      },
+      {
+        "intent": "pick_up",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "dagger",
+            "entity": "object"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "ground",
+            "entity": "location"
+          }
+        ],
+        "text": "pick up the dagger from the ground"
+      },
+      {
+        "intent": "pick_up",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "body",
+            "entity": "location"
+          }
+        ],
+        "text": "I loot the body"
+      },
+      {
+        "intent": "pick_up",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "corpse",
+            "entity": "location"
+          }
+        ],
+        "text": "loot the corpse"
+      },
+      {
+        "intent": "pick_up",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "gold",
+            "entity": "object"
+          }
+        ],
+        "text": "get all of the gold"
+      },
+      {
+        "intent": "pick_up",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "silver",
+            "entity": "object"
+          },
+          {
+            "start": 32,
+            "end": 37,
+            "value": "chest",
+            "entity": "location"
+          }
+        ],
+        "text": "grab all of the silver from the chest"
+      },
+      {
+        "intent": "pick_up",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "money",
+            "entity": "object"
+          },
+          {
+            "start": 25,
+            "end": 31,
+            "value": "drawer",
+            "entity": "location"
+          }
+        ],
+        "text": "get all the money in the drawer"
+      },
+      {
+        "intent": "throw",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "dagger",
+            "entity": "object"
+          }
+        ],
+        "text": "throw the dagger"
+      },
+      {
+        "intent": "throw",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "axe",
+            "entity": "object"
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "value": "creature",
+            "entity": "destination"
+          }
+        ],
+        "text": "hurl my axe at the creature"
+      },
+      {
+        "intent": "throw",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "rock",
+            "entity": "object"
+          }
+        ],
+        "text": "toss the rock"
+      },
+      {
+        "intent": "throw",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "rock",
+            "entity": "object"
+          },
+          {
+            "start": 23,
+            "end": 27,
+            "value": "wall",
+            "entity": "destination"
+          }
+        ],
+        "text": "I toss the rock at the wall"
+      },
+      {
+        "intent": "throw",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "hat",
+            "entity": "object"
+          }
+        ],
+        "text": "I throw my hat"
+      },
+      {
+        "intent": "throw",
+        "entities": [
+          {
+            "start": 28,
+            "end": 32,
+            "value": "hall",
+            "entity": "destination"
+          }
+        ],
+        "text": "I toss the [torch] down the hall"
+      },
+      {
+        "intent": "discard",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "sword",
+            "entity": "object"
+          }
+        ],
+        "text": "discard sword"
+      },
+      {
+        "intent": "discard",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "book",
+            "entity": "object"
+          }
+        ],
+        "text": "put down book"
+      },
+      {
+        "intent": "discard",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "hat",
+            "entity": "object"
+          }
+        ],
+        "text": "drop hat"
+      },
+      {
+        "intent": "attack",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "monster",
+            "entity": "object"
+          }
+        ],
+        "text": "attack monster"
+      },
+      {
+        "intent": "attack",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "monster",
+            "entity": "object"
+          }
+        ],
+        "text": "attack the monster"
+      },
+      {
+        "intent": "attack",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "goblin",
+            "entity": "object"
+          },
+          {
+            "start": 28,
+            "end": 33,
+            "value": "sword",
+            "entity": "weapon"
+          }
+        ],
+        "text": "I attack the goblin with my sword"
+      },
+      {
+        "intent": "attack",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "creature",
+            "entity": "object"
+          }
+        ],
+        "text": "attack the creature"
+      },
+      {
+        "intent": "attack",
+        "text": "slice"
+      },
+      {
+        "intent": "attack",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "monster",
+            "entity": "object"
+          }
+        ],
+        "text": "slice the monster"
+      },
+      {
+        "intent": "attack",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "guy",
+            "entity": "object"
+          },
+          {
+            "start": 22,
+            "end": 28,
+            "value": "dagger",
+            "entity": "weapon"
+          }
+        ],
+        "text": "slice the guy with my dagger"
+      },
+      {
+        "intent": "attack",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "spider",
+            "entity": "object"
+          }
+        ],
+        "text": "I slice the spider"
+      },
+      {
+        "intent": "attack",
+        "entities": [
+          {
+            "start": 31,
+            "end": 34,
+            "value": "axe",
+            "entity": "object"
+          }
+        ],
+        "text": "I slice the [creature] with my axe"
+      },
+      {
+        "intent": "attack",
+        "text": "slash"
+      },
+      {
+        "intent": "attack",
+        "text": "I slash"
+      },
+      {
+        "intent": "attack",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "creature",
+            "entity": "object"
+          }
+        ],
+        "text": "I slash the creature"
+      },
+      {
+        "intent": "attack",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "monster",
+            "entity": "object"
+          },
+          {
+            "start": 28,
+            "end": 33,
+            "value": "sword",
+            "entity": "object"
+          }
+        ],
+        "text": "I slash the monster with my sword"
+      },
+      {
+        "intent": "attack",
+        "text": "strike"
+      },
+      {
+        "intent": "attack",
+        "text": "hit"
+      },
+      {
+        "intent": "attack",
+        "text": "smash"
+      },
+      {
+        "intent": "attack",
+        "text": "pummel"
+      },
+      {
+        "intent": "attack",
+        "text": "punch"
+      },
+      {
+        "intent": "attack",
+        "text": "kick"
+      },
+      {
+        "intent": "attack",
+        "text": "choke"
+      },
+      {
+        "intent": "attack",
+        "text": "crush"
+      },
+      {
+        "intent": "attack",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "door",
+            "entity": "object"
+          }
+        ],
+        "text": "charge the door"
+      },
+      {
+        "intent": "observe",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "wall",
+            "entity": "object"
+          }
+        ],
+        "text": "look at the wall"
+      },
+      {
+        "intent": "observe",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "dagger",
+            "entity": "object"
+          }
+        ],
+        "text": "look at my dagger"
+      },
+      {
+        "intent": "observe",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "north",
+            "entity": "direction"
+          }
+        ],
+        "text": "look north"
+      },
+      {
+        "intent": "observe",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "book",
+            "entity": "object"
+          }
+        ],
+        "text": "observe book"
+      },
+      {
+        "intent": "observe",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "book",
+            "entity": "object"
+          }
+        ],
+        "text": "observe the book"
+      },
+      {
+        "intent": "observe",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "book",
+            "entity": "object"
+          }
+        ],
+        "text": "I observe the book"
+      },
+      {
+        "intent": "observe",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "bird",
+            "entity": "object"
+          }
+        ],
+        "text": "I watch the bird"
+      },
+      {
+        "intent": "observe",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "note",
+            "entity": "object"
+          }
+        ],
+        "text": "analyze the note"
+      },
+      {
+        "intent": "observe",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "note",
+            "entity": "object"
+          }
+        ],
+        "text": "I analyze the note"
+      },
+      {
+        "intent": "observe",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "letter",
+            "entity": "object"
+          }
+        ],
+        "text": "I read the letter"
+      },
+      {
+        "intent": "observe",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "letter",
+            "entity": "object"
+          }
+        ],
+        "text": "read the letter"
+      },
+      {
+        "intent": "observe",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "book",
+            "entity": "object"
+          }
+        ],
+        "text": "read book"
+      },
+      {
+        "intent": "unequip",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "armor",
+            "entity": "object"
+          }
+        ],
+        "text": "remove armor"
+      },
+      {
+        "intent": "unequip",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "armor",
+            "entity": "object"
+          }
+        ],
+        "text": "I remove my armor"
+      },
+      {
+        "intent": "unequip",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "glove",
+            "entity": "object"
+          },
+          {
+            "start": 27,
+            "end": 31,
+            "value": "hand",
+            "entity": "object"
+          }
+        ],
+        "text": "I remove the glove from my hand"
+      },
+      {
+        "intent": "unequip",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "armor",
+            "entity": "object"
+          }
+        ],
+        "text": "take off armor"
+      },
+      {
+        "intent": "unequip",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "sword",
+            "entity": "object"
+          }
+        ],
+        "text": "unequip sword"
+      },
+      {
+        "intent": "unequip",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "helmet",
+            "entity": "object"
+          }
+        ],
+        "text": "I take off my helmet"
+      },
+      {
+        "intent": "unequip",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "sword",
+            "entity": "object"
+          }
+        ],
+        "text": "I unequip the sword"
+      },
+      {
+        "intent": "equip",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "hat",
+            "entity": "object"
+          }
+        ],
+        "text": "wear hat"
+      },
+      {
+        "intent": "equip",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "hat",
+            "entity": "object"
+          }
+        ],
+        "text": "I wear the hat"
+      },
+      {
+        "intent": "equip",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "armor",
+            "entity": "object"
+          }
+        ],
+        "text": "put on armor"
+      },
+      {
+        "intent": "equip",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "armor",
+            "entity": "object"
+          }
+        ],
+        "text": "I put on the armor"
+      },
+      {
+        "intent": "equip",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": "sword",
+            "entity": "object"
+          }
+        ],
+        "text": "equip sword"
+      },
+      {
+        "intent": "equip",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "sword",
+            "entity": "object"
+          }
+        ],
+        "text": "I equip the sword"
+      },
+      {
+        "intent": "move",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "north",
+            "entity": "direction"
+          }
+        ],
+        "text": "move north"
+      },
+      {
+        "intent": "move",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "forward",
+            "entity": "direction"
+          }
+        ],
+        "text": "walk forward"
+      },
+      {
+        "intent": "move",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "goblin",
+            "entity": "object"
+          }
+        ],
+        "text": "jump on the goblin"
+      },
+      {
+        "intent": "move",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "up",
+            "entity": "direction"
+          }
+        ],
+        "text": "jump up"
+      },
+      {
+        "intent": "move",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "forward",
+            "entity": "direction"
+          }
+        ],
+        "text": "run forward"
+      },
+      {
+        "intent": "move",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "back",
+            "entity": "direction"
+          }
+        ],
+        "text": "I walk back"
+      },
+      {
+        "intent": "move",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "door",
+            "entity": "destination"
+          }
+        ],
+        "text": "run to the door"
+      },
+      {
+        "intent": "move",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "hallway",
+            "entity": "destination"
+          }
+        ],
+        "text": "I run to the hallway"
+      },
+      {
+        "intent": "hide",
+        "text": "crouch"
+      },
+      {
+        "intent": "hide",
+        "text": "hide"
+      },
+      {
+        "intent": "hide",
+        "text": "go behind"
+      },
+      {
+        "intent": "push",
+        "text": "push"
+      },
+      {
+        "intent": "push",
+        "text": "shove"
+      },
+      {
+        "intent": "pull",
+        "text": "pull"
+      },
+      {
+        "intent": "touch",
+        "text": "touch"
+      },
+      {
+        "intent": "touch",
+        "text": "poke"
+      },
+      {
+        "intent": "stop",
+        "text": "stop"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
